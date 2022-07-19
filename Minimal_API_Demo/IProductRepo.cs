@@ -1,6 +1,4 @@
-﻿using Minimal_API_Demo;
-
-internal interface IProductRepo
+﻿internal interface IProductRepo
 {
     public IEnumerable<Product> GetProducts();
     public Product GetProduct(int id);

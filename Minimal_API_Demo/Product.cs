@@ -1,5 +1,4 @@
-﻿namespace Minimal_API_Demo;
-
+﻿
 public class Product
 {
     public int ProductID { get; set; }

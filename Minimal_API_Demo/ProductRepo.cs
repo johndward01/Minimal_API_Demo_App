@@ -1,5 +1,4 @@
 ﻿using Dapper;
-using Minimal_API_Demo;
 using System.Data;
 
 internal class ProductRepo : IProductRepo

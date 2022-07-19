@@ -34,7 +34,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Hello World");
-//app.MapGet("/", (ProductRepo repo) => repo.GetProducts());
+app.MapGet("/GetProducts", (IProductRepo repo) => repo.GetProducts());
 
 app.Run();
 
